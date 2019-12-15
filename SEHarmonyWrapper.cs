@@ -146,6 +146,10 @@ namespace SEHarmonyWrapper
                                 logger.Log("Skipping blacklisted " + workshopId);
                                 continue;
                             }
+                            if(!Directory.Exists(pluginPath))
+                            {
+                                Directory.CreateDirectory(pluginPath);
+                            }
                             foreach (ZipArchiveEntry entry in zip.Entries)
                             {
                                 string extractPath = Path.GetFullPath(Path.Combine(pluginPath, entry.FullName));
@@ -166,7 +170,7 @@ namespace SEHarmonyWrapper
                     }
                 }
             }
-            File.WriteAllText(modListFilename, String.Join("\n", modList.Select(m => m.Key.ToString() + "=" + (m.Value ? "1" : "0"))));
+            File.WriteAllText(modListFilename, String.Join("\r\n", modList.Select(m => m.Key.ToString() + "=" + (m.Value ? "1" : "0"))));
         }
         private bool LoadPlugin(string dll, HarmonyInstance harmony)
         {
