@@ -29,12 +29,30 @@
       <HintPath>0Harmony.dll</HintPath>
       <Private>true</Private>
     </Reference>
+    <Reference Include="Sandbox.Game">
+      <HintPath>K:\games\Steam\steamapps\common\SpaceEngineers\Bin64\Sandbox.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Sandbox.Graphics">
+      <HintPath>K:\games\Steam\steamapps\common\SpaceEngineers\Bin64\Sandbox.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="SpaceEngineers.Game">
+      <HintPath>K:\games\Steam\steamapps\common\SpaceEngineers\Bin64\SpaceEngineers.Game.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows.Forms">
       <Private>false</Private>
     </Reference>
     <Reference Include="VRage">
       <HintPath>K:\games\Steam\steamapps\common\SpaceEngineers\Bin64\VRage.dll</HintPath>
       <Private>false</Private>
+    </Reference>
+    <Reference Include="VRage.Game">
+      <HintPath>K:\games\Steam\steamapps\common\SpaceEngineers\Bin64\VRage.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Library">
+      <HintPath>K:\games\Steam\steamapps\common\SpaceEngineers\Bin64\VRage.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="VRage.Math">
+      <HintPath>K:\games\Steam\steamapps\common\SpaceEngineers\Bin64\VRage.Math.dll</HintPath>
     </Reference>
   </ItemGroup>
 
