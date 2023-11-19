@@ -11,7 +11,7 @@ using System.Text;
 using Sandbox.Game.Screens;
 using Sandbox.Graphics;
 using VRage.Utils;
-using VRageMath;
+using VRageMath
 using Sandbox.Graphics.GUI;
 using SpaceEngineers.Game.GUI;
 using VRage.Audio;
