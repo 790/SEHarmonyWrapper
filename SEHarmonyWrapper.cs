@@ -1,8 +1,5 @@
-﻿using System;
-using Harmony;
-using System.Reflection;
-using VRage.Plugins;
-using System.Collections.Generic;
+﻿
+
 using System.Linq;
 using System.IO;
 using System.Windows.Forms;
